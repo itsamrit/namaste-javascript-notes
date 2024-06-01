@@ -1,7 +1,8 @@
 # Episode 18 : Higher-Order Functions ft. Functional Programming
 
 ### Q: What is Higher Order Function?
-**Ans**: Higher-order functions are regular functions that take one or more functions as arguments and/or return functions as a value from it. Eg: 
+**Ans**: igher-order functions rely on functions being first-class to operate. Therefore, all higher-order functions require first-class functions, but not all first-class functions are necessarily higher-order functions.
+Higher-order functions are regular functions that take one or more functions as arguments and/or return functions as a value from it. Eg: 
 ```js
 function x() {
     console.log("Hi");
